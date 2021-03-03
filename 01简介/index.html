@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./index.less">
+</head>
+<body>
+  <div id="title">Webpack初始化学习</div>
+  <script src="./index.js"></script>
+
+  <!-- 
+    1.什么是构建工具? 
+      eg: 引入的less文件和js文件 需要解析成浏览器识别的css 和 ES5的语法, 每一个转化都需要使用与之对应的转化器
+      而webpack将这些转化器集中起来--- >形成一个构建工具(webpack(静态模块化打包器)只是其中一种)
+   
+    2.webpack是什么?(静态模块打包器)
+      eg: 在vue项目中,某个组件中引入了js,less,图片....资源(统称为模块化引入文件资源),引入的这些资源通过依赖关系一次引入进来
+      进行静态分析形成chunk(代码块), 然后再去对代码块进行一个个的处理(将less转为css, ES6转为ES5, ....) ---  > (概括为打包)=> 并输出bundle
+  
+  -->
+</body>
+</html>
