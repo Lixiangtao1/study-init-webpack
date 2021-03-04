@@ -5,6 +5,7 @@
     开发环境: webpack ./src/index.js -o ./build/built.js --mode=development
       (webpack会以./src/index.js为入口文件开始打包, 打包后输出到./build/built.js)
     生产环境: webpack ./src/index.js -o ./build/built.js --mode=production
+    生产环境和开发环境的打包之后的区别:生产环境会进行代码压缩
 
   2.结论：
     a : webpack能够处理JS资源,JSON资源, 不能够处理CSS/img资源
